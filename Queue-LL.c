@@ -13,7 +13,7 @@ void enqueue(int x)
     struct Node *t;
     t = (struct Node *)malloc(sizeof(struct Node));
     if (t == NULL)
-        printf("Queue is FUll\n");
+        printf("Queue is Full\n");
     else
     {
         t->data = x;
