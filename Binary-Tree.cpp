@@ -2,7 +2,8 @@ Binary Tree Class
 #include <iostream>
 #include <stdio.h>
 #include "QueueCpp.h"
-    using namespace std;
+
+using namespace std;
 class Tree
 {
     Node *root;
