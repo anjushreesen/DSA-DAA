@@ -27,7 +27,7 @@ void Tree::CreateTree()
     Node *p, *t;
     int x;
     Queue q(100);
-    printf("Eneter root value ");
+    printf("Enter root value ");
     scanf("%d", &x);
     root = new Node;
     root->data = x;
@@ -36,7 +36,7 @@ void Tree::CreateTree()
     while (!q.isEmpty())
     {
         p = q.dequeue();
-        printf("eneter left child of %d ", p->data);
+        printf("Enter left child of %d ", p->data);
         scanf("%d", &x);
         if (x != -1)
         {
@@ -46,7 +46,7 @@ void Tree::CreateTree()
             p->lchild = t;
             q.enqueue(t);
         }
-        printf("eneter right child of %d ", p->data);
+        printf("Enter right child of %d ", p->data);
         scanf("%d", &x);
         if (x != -1)
         {
